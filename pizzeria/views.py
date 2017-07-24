@@ -5,6 +5,7 @@ import json
 from pizzeria.forms import ParkingForm
 
 def main(request):
+    Parking.create(Address="tahoma", Longitude=-55.13, Latitude=123.12345)
 
     return render(request, "main.html")
 
